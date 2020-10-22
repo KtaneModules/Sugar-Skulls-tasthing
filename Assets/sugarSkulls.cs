@@ -156,11 +156,21 @@ public class sugarSkulls : MonoBehaviour
 
     IEnumerator ProcessTwitchCommand(string input)
     {
-        yield return null;
+        input = input.Trim().ToLowerInvariant();
+        var inputs = new string[] { "top", "left", "right" };
+        if (inputs.Any(x => x == input))
+        {
+            yield return null;
+            buttons[Array.IndexOf(inputs, input)].OnInteract();
+        }
+        else
+            yield break;
     }
 
     IEnumerator TwitchHandleForcedSolve()
     {
-        yield return null;
+        while (cantPress)
+            yield return true;
+        buttons[solution].OnInteract();
     }
 }

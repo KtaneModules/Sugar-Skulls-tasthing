@@ -15,8 +15,9 @@ MonoBehaviour:
   title: Sugar Skulls
   author: TasThing
   description: "Success doesn\u2019t come for free. You have to do whatever it takes
-    to seize your moment.\n\nModule idea and implementation by TasThing.\nSolve sound
-    and background from Coco."
+    to seize your moment.\r\n\r\nModule idea and implementation by TasThing.\r\nSolve
+    sound and background from Coco.\r\n\r\nManual HTML: https://ktane.timwi.de/HTML/Sugar%20Skulls.html\r\nManual
+    PDF: https://ktane.timwi.de/PDF/Sugar%20Skulls.pdf"
   version: 
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 6270880ccad6a2d4785be0ec079ec92b, type: 3}
