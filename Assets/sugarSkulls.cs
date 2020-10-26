@@ -151,7 +151,7 @@ public class sugarSkulls : MonoBehaviour
 
     // Twitch Plays
 #pragma warning disable 414
-    private readonly string TwitchHelpMessage = "!{0} <top/left/right> [Presses that skull.}";
+    private readonly string TwitchHelpMessage = "!{0} <top/left/right> [Presses that skull.]";
 #pragma warning restore 414
 
     IEnumerator ProcessTwitchCommand(string input)
