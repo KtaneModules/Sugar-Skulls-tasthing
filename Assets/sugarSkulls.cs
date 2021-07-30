@@ -139,7 +139,7 @@ public class sugarSkulls : MonoBehaviour
     IEnumerator ColorChange(TextMesh display, Color startColor, Color endColor)
     {
         var elapsed = 0f;
-        var duration = .75f;
+        var duration = .5f;
         while (elapsed < duration)
         {
             display.color = Color.Lerp(startColor, endColor, elapsed / duration);

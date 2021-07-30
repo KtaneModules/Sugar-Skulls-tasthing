@@ -349,7 +349,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 451d40bceebd28f4d8d52ce2127536e7, type: 3}
+      objectReference: {fileID: 2100000, guid: ea7383a11cc28a24cbea15073b68bf56, type: 2}
     - target: {fileID: 102703252448979334, guid: 8814ea52310d2614a9feda02ec355ae4,
         type: 2}
       propertyPath: m_Font
@@ -366,7 +366,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 451d40bceebd28f4d8d52ce2127536e7, type: 3}
+      objectReference: {fileID: 2100000, guid: ea7383a11cc28a24cbea15073b68bf56, type: 2}
     - target: {fileID: 102476131169566396, guid: 8814ea52310d2614a9feda02ec355ae4,
         type: 2}
       propertyPath: m_Color.rgba
